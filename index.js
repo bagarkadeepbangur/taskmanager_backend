@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://mern-task-manager-app.netlify.app","https://taskmanager-frontend-ten.vercel.app", "http://localhost:3000", "http://localhost:3001","http://localhost:5173"],
+    origin: ["https://taskmanager-frontend-mpcvr9lwv-arkadeep-bags-projects.vercel.app","https://taskmanager-frontend-ten.vercel.app", "http://localhost:3000", "http://localhost:3001","http://localhost:5173"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
